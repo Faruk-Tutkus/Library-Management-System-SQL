@@ -1,0 +1,17 @@
+- Projenin Videosu: https://drive.google.com/file/d/1CGsuSHJcxZFMcycUOcfFD55pBh6R16nn/view?usp=sharing
+
+- Database klasörü içerisindeki "Library Management System.bak" adlı datayı MSSQL içerisine restore edin.
+	a. Databasenin içerisinde halihazırda gelen User ve Books tablolarında, örnek kitaplar ve kullanıcılar bulunmaktadır.
+
+- Proje "WPF App" olarak hazırlanmıştır (.NET Framework 4.7.2)
+
+- "Blend for Visual Studio 2022" veya "Visual Studio 2022" uygulamaları ile çalıştırılabilir.
+
+- "Library Management System" adlı klasörde "Library Management System.sln" dosyasının çalıştırılması ile proje başlatılabilir.
+
+- Proje çalıştırılmadan önce "MainWindow.xaml.cs" dosyayı içerisindeki serverName adlı string değiştirilmelidir, aksi halde
+uygulama çalışmayacaktır. (string serverName = "SERVER-ADI\\SQLEXPRESS";)
+
+- Örnek bir connectionStringi [string connectionString = $"Server={serverName};Database=Library Management System;Integrated Security=True;MultipleActiveResultSets=true";]
+
+

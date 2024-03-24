@@ -1,0 +1,61 @@
+﻿<Window x:Class="Library_Management_System.AdminPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_Management_System"
+        mc:Ignorable="d"
+        Title="AdminPanel" Height="747" Width="1000" Background="Transparent" MinWidth="1000" MinHeight="749" MaxWidth="1000" MaxHeight="749">
+    <Grid Background="#FF5C98CF">
+        <Rectangle HorizontalAlignment="Center" Height="610" VerticalAlignment="Center" Width="917" RadiusX="25" RadiusY="25" Fill="#FFD3E4F7"/>
+        <Rectangle Height="242" Margin="112,114,676,0" VerticalAlignment="Top" Fill="#FFBAC8E3" RadiusX="25" RadiusY="25"/>
+        <Rectangle Height="242" Margin="398,114,390,0" VerticalAlignment="Top" Fill="#FFBAC8E3" RadiusX="25" RadiusY="25"/>
+        <Rectangle Height="242" Margin="685,114,104,0" VerticalAlignment="Top" Fill="#FFBAC8E3" RadiusX="25" RadiusY="25"/>
+        <Rectangle Height="242" Margin="112,377,676,0" VerticalAlignment="Top" RadiusX="25" RadiusY="25" Fill="#FFBAC8E3"/>
+        <Rectangle Height="242" Margin="398,377,390,0" VerticalAlignment="Top" Fill="#FFBAC8E3" RadiusX="25" RadiusY="25"/>
+        <Rectangle Height="242" Margin="685,377,104,0" VerticalAlignment="Top" Fill="#FFBAC8E3" RadiusX="25" RadiusY="25"/>
+        <Rectangle HorizontalAlignment="Left" Height="150" Margin="143,206,0,0" VerticalAlignment="Top" Width="150">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/addbook.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="150" Margin="429,206,0,0" VerticalAlignment="Top" Width="150">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/updatebook.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="150" Margin="716,216,0,0" VerticalAlignment="Top" Width="150">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/listbook.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="150" Margin="716,469,0,0" VerticalAlignment="Top" Width="150">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/updateuser.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="150" Margin="429,469,0,0" VerticalAlignment="Top" Width="150">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/listuser.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="150" Margin="143,469,0,0" VerticalAlignment="Top" Width="150">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/deletebook.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="Kitap&#xA;Ekle" HorizontalAlignment="Left" Margin="128,101,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Roboto Mono" Foreground="#FF284E70" HorizontalContentAlignment="Center" Width="180" VerticalContentAlignment="Center" UseLayoutRounding="False" FontWeight="Bold"/>
+        <Label Content=" Kitap&#xA;Güncelle" HorizontalAlignment="Left" Margin="414,96,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Roboto Mono" Foreground="#FF284E70" HorizontalContentAlignment="Center" Width="180" VerticalContentAlignment="Center" UseLayoutRounding="False" FontWeight="Bold"/>
+        <Label Content=" Kitap&#xA;Listesi" HorizontalAlignment="Left" Margin="701,96,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Roboto Mono" Foreground="#FF284E70" HorizontalContentAlignment="Center" Width="180" VerticalContentAlignment="Center" UseLayoutRounding="False" FontWeight="Bold"/>
+        <Label Content="Kitap&#xA; Sil" HorizontalAlignment="Left" Margin="128,366,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Roboto Mono" Foreground="#FF284E70" HorizontalContentAlignment="Center" Width="180" VerticalContentAlignment="Center" UseLayoutRounding="False" FontWeight="Bold"/>
+        <Label Content="Kullanıcı&#xA; Listesi" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Roboto Mono" Foreground="#FF284E70" HorizontalContentAlignment="Center" Width="215" VerticalContentAlignment="Center" UseLayoutRounding="False" FontWeight="Bold"/>
+        <Label Content="Kullanıcı&#xA;Güncelle" HorizontalAlignment="Left" Margin="685,366,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Roboto Mono" Foreground="#FF284E70" HorizontalContentAlignment="Center" Width="211" VerticalContentAlignment="Center" UseLayoutRounding="False" FontWeight="Bold"/>
+        <Rectangle x:Name="listBook" HorizontalAlignment="Left" Height="245" Margin="685,116,0,0" VerticalAlignment="Top" Width="211" MouseDown="listBook_MouseDown" Fill="#00000000"/>
+        <Rectangle x:Name="addbook" HorizontalAlignment="Left" Height="245" Margin="113,111,0,0" VerticalAlignment="Top" Width="211" Fill="#00000000" MouseDown="addbook_MouseDown"/>
+        <Rectangle x:Name="updatebook" HorizontalAlignment="Left" Height="245" Margin="399,112,0,0" VerticalAlignment="Top" Width="211" Fill="#00000000" MouseDown="updatebook_MouseDown"/>
+        <Rectangle x:Name="listUser" HorizontalAlignment="Left" Height="245" Margin="399,377,0,0" VerticalAlignment="Top" Width="211" Fill="#00000000" MouseDown="listUser_MouseDown"/>
+        <Rectangle x:Name="updateUser" HorizontalAlignment="Left" Height="245" Margin="685,377,0,0" VerticalAlignment="Top" Width="211" Fill="#00000000" MouseDown="updateUser_MouseDown"/>
+        <Rectangle x:Name="deletebook" HorizontalAlignment="Left" Height="245" Margin="113,377,0,0" VerticalAlignment="Top" Width="211" Fill="#00000000" MouseDown="deletebook_MouseDown"/>
+
+    </Grid>
+</Window>

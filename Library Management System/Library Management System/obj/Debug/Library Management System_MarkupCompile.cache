@@ -1,0 +1,20 @@
+﻿Library Management System
+
+
+winexe
+C#
+.cs
+C:\MMSQL\Library Management System\Library Management System\obj\Debug\
+Library_Management_System
+none
+false
+DEBUG;TRACE
+C:\MMSQL\Library Management System\Library Management System\App.xaml
+11-2075579550
+
+16-1688217204
+13-1310406943
+AddBook.xaml;AdminPanel.xaml;DeleteBook.xaml;Listbook.xaml;ListUser.xaml;MainWindow.xaml;RefundBook.xaml;RentBook.xaml;UpdateBook.xaml;UpdateUser.xaml;UserPanel.xaml;
+
+False
+
